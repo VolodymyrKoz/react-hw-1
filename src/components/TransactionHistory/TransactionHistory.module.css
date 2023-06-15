@@ -1,0 +1,27 @@
+.transaction {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+thead > tr > th {
+  padding: 15px 0;
+}
+
+tbody > tr > td {
+  padding: 15px 0;
+  color: gray;
+}
+tr:nth-of-type(2n) {
+  background-color: azure;
+}
+
+thead {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  background-color: aqua;
+}
